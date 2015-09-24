@@ -4,9 +4,9 @@ set -e
 
 initialCwd=`pwd -P`
 
-apmPath=$0
-builtin cd "`dirname "$apmPath"`"
-binDir=`basename "$apmPath"`
+vpnhtPath=$0
+builtin cd "`dirname "$vpnhtPath"`"
+binDir=`basename "$vpnhtPath"`
 
 # Detect node binary name
 osName=`uname -s`
