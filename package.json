@@ -1,0 +1,41 @@
+{
+  "name": "vpnht-cli",
+  "description": "VPN.ht Command Line",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vpnht/desktop-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vpnht/vpnht-cli/issues"
+  },
+  "main": "./lib/vpnht.js",
+  "bin": {
+    "vpnht": "./bin/vpnht"
+  },
+  "scripts": {
+    "prepublish": "grunt prepublish",
+    "install": "node ./script/download-node.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "lodash": "^3.10.1",
+    "mv": "^2.1.1",
+    "request": "^2.63.0",
+    "semver": "^5.0.3",
+    "tar": "^2.2.1",
+    "temp": "^0.8.3",
+    "wordwrap": "^1.0.0",
+    "yargs": "^3.25.0"
+  },
+  "devDependencies": {
+    "jasmine-focused": ">=1.0.7 <2.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.12.0",
+    "grunt-cli": "~0.1.8",
+    "express": "~3.2.3",
+    "grunt-coffeelint": "0.0.13",
+    "coffee-script": "^1.8.0"
+  }
+}
