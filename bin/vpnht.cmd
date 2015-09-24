@@ -3,4 +3,3 @@
 ) ELSE (
   node.exe --harmony_collections "%~dp0/../lib/cli.js" %*
 )
-
